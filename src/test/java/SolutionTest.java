@@ -23,4 +23,15 @@ public class SolutionTest {
         Assert.assertEquals(expected, actual);
 
     }
+
+    @Test
+    public void multiplyTest3() {
+        String num1 = "9";
+        String num2 = "99";
+        String expected = "891";
+        String actual = new Solution().multiply(num1, num2);
+
+        Assert.assertEquals(expected, actual);
+
+    }
 }
